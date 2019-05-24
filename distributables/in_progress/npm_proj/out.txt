@@ -1,0 +1,44 @@
+body-parser - parses html request bodies for backend
+cheerio - jquery but nicer
+shelljs - shell scripting in javascript
+rimraf - just does rm -rf in node
+fs-extra - also shell commands....
+react-dom - renders react to the DOM
+yargs - like argparse, build command-line tool
+debug - debug for a server
+commander - like yargs
+glob - find files on the server
+react - build jsx components on a virtual dom
+request - like requests
+yeoman-generator - app boilerplate generator
+winston - like python logging module
+colors - gives colors in node console
+babel-runtime - babel meta stuff needed to work
+through2 - to work with streams easily
+yosay - shows a picture of yeoman saying something. wtf.
+bluebird - promises, but nicer
+mocha - test framework like cypress
+uuid - creates universally unique identifiers(128 bits)
+async - for easy async use
+inquirer - like yargs and commander, but beautiful
+chalk - style terminal output
+gulp-util - a deprecated streaming build system(use gulp now)
+underscore - subset of lodash(for the functional programming parts)
+semver - used to check semantic versioning
+prop-types - checks react objects at runtime
+object-assign - object.assign for older node and browsers
+rxjs - transform, compose and query streams of data
+axios - make requests?
+handlebars - jsx before jsx
+express - backend server
+lodash - js ponyfill
+minimist - argparse
+jquery - query the DOM with javascript
+mkdirp - recursively make directories
+classnames - often used in react to express conditional classes
+q - working with promises?
+js-yaml - create and read yaml esp for config files
+moment - work with dates
+ms - convert to and from milliseconds
+webpack - bundles css/js and manages imports, optionally also transpile
+babel - transpiles new js into old js for backwards compatibility

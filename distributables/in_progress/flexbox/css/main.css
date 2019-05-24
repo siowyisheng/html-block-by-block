@@ -1,0 +1,43 @@
+.wrapper {
+  /*
+  There are two axes in a flex wrapper. The primary axis is where the next item
+  goes. It is defined by flex-flow(or flex-direction).
+
+  By default, flex wrapper children stretch to fit their parents in the cross
+  axis. align-items can be set to flex-start, flex-end, center or baseline as
+  alternatives.
+
+  When wrapping items into the cross axis, align-content can be set to flex-start,
+  flex-end, center, stretch, space-between or space-around.
+  */
+  display: flex;
+  flex-flow: row wrap;
+  height: 400px;
+  width: 400px;
+  /* justify-content: flex-start; */
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 100px;
+  width: 100px; */
+  /* margin: auto; */
+  background-color: #973896;
+  /* margin: 1px; */
+  flex: 1;
+  /* flex: 1 spoils the wrap */
+}
+
+.else {
+  flex: 1;
+}
+
+input {
+  width: 50px;
+  max-width: 100px;
+  max-height: 100px;
+}
